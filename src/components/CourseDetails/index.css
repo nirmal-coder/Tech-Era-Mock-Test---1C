@@ -1,0 +1,80 @@
+.CdMainContainer {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+
+.CdContainer {
+  width: min(85%, 900px);
+  box-shadow: 10px 10px 30px #64748b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.CdContainer img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .CdContainer img {
+    width: 50%;
+  }
+  .CdContainer{
+    flex-direction:row;
+  }
+}
+
+.CdDescription {
+  width: 100%;
+  padding: 10px;
+}
+
+.CdDescription h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.CdDescription p {
+  color: #64748b;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  .CdDescription {
+    width: 50%;
+  }
+}
+
+.loader-container {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FailureView {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FailureView img {
+  width: 50%;
+}
+.FailureView h1 {
+  color: #475569;
+}
+.FailureView p {
+  color: #64748b;
+}
+.FailureView button {
+  background-color: #4656a1;
+  padding: 10px 20px;
+  border: 0px;
+}

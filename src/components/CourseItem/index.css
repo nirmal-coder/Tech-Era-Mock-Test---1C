@@ -1,0 +1,39 @@
+.Links {
+  width: 30%;
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px 20px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .Links {
+    width: 25%;
+  }
+}
+
+.CiContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CiContainer img {
+  width: 40px;
+  height: 40px;
+  margin: 0px 20px 0px 0px;
+  @media screen and (min-width: 768px) {
+    width: 60px;
+    height: 60px;
+  }
+  @media screen and (min-width: 996px) {
+    .CiContainer {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+.CiContainer p {
+  font-weight: 600;
+}

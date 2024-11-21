@@ -1,0 +1,17 @@
+.NfContainer {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NfContainer img {
+  width: 50%;
+}
+.NfContainer h1 {
+  color: #475569;
+}
+.NfContainer p {
+  color: #64748b;
+}
